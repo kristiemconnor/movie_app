@@ -39,7 +39,7 @@ class Api::MoviesController < ApplicationController
       render json: {errors: @movie.errors.full_messages}, status: :unprocessable_entity
     end
   end
-
+#does this work
   def destroy
     @movie = Movie.find(params[:id])
     @movie.destroy
