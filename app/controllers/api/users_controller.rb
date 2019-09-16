@@ -8,6 +8,8 @@ class Api::UsersController < ApplicationController
     email: params[:email],
     password: params[:password],
     password_confirmation: params[:password_confirmation]
+    auth: params[:auth],
+    genre: params[:genre]
     )
 
     if user.save
