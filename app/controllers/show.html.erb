@@ -1,0 +1,27 @@
+
+
+<h2><%= @movie.title %></h2>
+<h3><%= @movie.year %></h3>
+<h4><%= @movie.plot %></h4>
+
+
+<form action="/my-handling-form-page" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="msg">Favorite movie and why:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Send!">
+  </div>
+</form>
+Update
+
+<footer><%= <a href="https://localhost:3000/api/movies" style="color:red">More movies!</a> %>
