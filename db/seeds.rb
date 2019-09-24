@@ -7,6 +7,3 @@ Movie.create({title: "Doctor Strange", year: "2016", plot: "Dr. Stephen Strange'
 Movie.create({title: "Lost in Translation", year: "2003", plot: "A lonely, aging movie star named Bob Harris and a conflicted newlywed, Charlotte, meet in Tokyo. Bob is there to film a Japanese whiskey commercial; Charlotte is accompanying her celebrity-photographer husband. Strangers in a foreign land, the two find escape, distraction and understanding amidst the bright Tokyo lights after a chance meeting in the quiet lull of the hotel bar. They form a bond that is as unlikely as it is heartfelt and meaningful.", director: "Sofia Coppola", english: true})
 
 
-  Genre.create({type: "comedy"})
-  Genre.create({type: "science fiction"})
-  Genre.create({type: "drama"})
